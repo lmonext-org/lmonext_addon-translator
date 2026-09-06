@@ -1,0 +1,28 @@
+{
+    "name": "translator",
+    "version": "1.0.6",
+    "type": "admin",
+    "description": {
+        "de": "Übersetzungs-Editor: DE/EN Sprachdateien side-by-side bearbeiten, fehlende Keys ergänzen, optional mit DeepL auto-übersetzen.",
+        "en": "Translation editor: edit DE/EN language files side-by-side, fill missing keys, optionally auto-translate via DeepL."
+    },
+    "author": "Torsten Hofmann",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/lmonext/addon-translator",
+    "icon": "🌐",
+    "min_core_version": "1.9.2",
+    "dependencies": [],
+    "admin_handlers": ["handler_translator.php"],
+    "admin_views": {
+        "translator": "view_translator.php"
+    },
+    "admin_nav": [
+        { "action": "translator", "icon": "🌐", "label_key": "nav_translator", "position": 95 }
+    ],
+    "frontend_handlers": [],
+    "frontend_views": {},
+    "templates_dir": "",
+    "lang_dir": "lang/",
+    "db_tables": [],
+    "hooks": []
+}
