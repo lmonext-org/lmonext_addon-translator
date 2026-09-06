@@ -10,7 +10,7 @@
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/lmonext/addon-translator",
     "icon": "🌐",
-    "min_core_version": "1.9.2",
+    "min_core_version": "1.9.2-beta",
     "dependencies": [],
     "admin_handlers": ["handler_translator.php"],
     "admin_views": {
